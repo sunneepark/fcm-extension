@@ -11,13 +11,17 @@
  // Initialize the Firebase app in the service worker by passing in the
  // messagingSenderId.
  // Initialize Firebase
+
+// Initialize Firebase
 var config = {
-  apiKey: "AIzaSyA-T75QDYHQvhMPXQBE7QTdFu6-NLPk_8s",
-  messagingSenderId: "243806766229"
+  apiKey: "your api key",
+  messagingSenderId: "your senderid"
 };
 firebase.initializeApp(config);
 
 const messaging = firebase.messaging();
+messaging.usePublicVapidKey('your vapid key');
+    // [END set_public_vapid_key]
 
 
  //background 에서 메시지 받기

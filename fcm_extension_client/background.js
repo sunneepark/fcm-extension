@@ -2,13 +2,13 @@
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyA-T75QDYHQvhMPXQBE7QTdFu6-NLPk_8s",
-  messagingSenderId: "243806766229"
+  apiKey: "your api key",
+  messagingSenderId: "your senderid"
 };
 firebase.initializeApp(config);
 
 const messaging = firebase.messaging();
-messaging.usePublicVapidKey('BNS0clqpebIxGeu6LCuDsMn08OAaTqYknVu7B08YpIy_PVCrDC-jaPWRoUmh4KhAJpyE5Ah4C38GscB9KReioME');
+messaging.usePublicVapidKey('your vapid key');
     // [END set_public_vapid_key]
 
 function initApp() {  

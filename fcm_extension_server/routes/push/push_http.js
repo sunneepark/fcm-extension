@@ -24,7 +24,7 @@ router.get('/:token', async(req, res, next) => {
 
   try{
     request.post({
-      headers : {'Content-type':'application/json','Authorization':'key=AAAAOMQEBJU:APA91bG1pDVAhBUMM7I5If3cOcjdvgnY753-bUGjx_DEshWPrwj7_Yy53tTe1tL4X0F_Oejnq-x3mWVua1E1Up0NxE5ofc4SroxewmjKqlzCvRtJoMBLwg3_1xLa93bAQxUD6UF4QWmw'},
+      headers : {'Content-type':'application/json','Authorization':'key={server key}'},
       url : 'https://fcm.googleapis.com/fcm/send',
       body : reqObj,
       json : true
