@@ -1,6 +1,11 @@
-## fcm-extension
-크로미움 기반 확장앱에서 FCM 구현
+# fcm-extension
+FCM, Chromium Extension 기반 확장앱에서 웹푸시 구현
 
-# fcm-extension-client
+<결과>
 
-# fcm-extension-server
+https://github.com/sunneepark/fcm-extension/issues/1#issue-590768472
+
+## fcm-extension-client
+
+
+## fcm-extension-server
